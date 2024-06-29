@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",                  // Specify ECMAScript target version
+      "module": "commonjs",             // Specify module code generation
+      "strict": true,                   // Enable all strict type-checking options
+      "esModuleInterop": true,          // Enables ES6 module interoperability
+      "skipLibCheck": true,             // Skip type checking of declaration files
+      "outDir": "./dist"                // Redirect output structure to the directory
+    },
+    "include": [
+      "src/**/*"                        // Files to be included in compilation
+    ],
+    "exclude": [
+      "node_modules",                   // Exclude node_modules
+      "**/*.spec.ts"                    // Exclude test files
+    ]
+  }
+  
